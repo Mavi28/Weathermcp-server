@@ -1,0 +1,14 @@
+[project]
+name = "crewai-mcp"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=1.7.2",
+    "crewai-tools[mcp]>=1.7.2",
+    "httpx>=0.28.1",
+    "litellm>=1.75.3",
+    "mcp[cli]>=1.16.0",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+]
